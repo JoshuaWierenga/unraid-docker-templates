@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Containers>
+    <Date>2021-05-31</Date>
+    <Beta>True</Beta>
+    <Category>Tools</Category>
+    <Name>Jupyter Common Lisp</Name>
+    <Project>https://github.com/yitzchak/common-lisp-jupyter/</Project>
+    <Overview>Allows for automatic setup of Jupyter Notebooks with the common-lisp-jupyter kernel.</Overview>
+    <Description>Allows for automatic setup of Jupyter Notebooks with the common-lisp-jupyter kernel.</Description>
+    <Registry>siwatinc/ubuntu-playground</Registry>
+    <GitHub>https://github.com/JoshuaWierenga/unraid-docker-templates</GitHub>
+    <Repository>siwatinc/ubuntu-playground</Repository>
+    <Support>https://github.com/JoshuaWierenga/unraid-docker-templates/issues</Support>
+    <BindTime>true</BindTime>
+    <Privileged>true</Privileged>
+    <Environment />
+    <Data />
+    <Config Name="Jupyter Data" Target="/home" Default="/mnt/user/appdata/jupyterlisp" Mode="rw" Description="This is where playground will store you user's home directory" Type="Path" Display="always-hide" Required="true" Mask="false" />
+    <Config Name="APT Packages" Target="packages" Default="libev-dev python3-pip python3-dev libczmq-dev" Mode="" Description="The List of aptitude packages you wish to install (Seperated by space)" Type="Variable" Display="advanced-hide" Required="true" Mask="false" />
+    <Config Name="Jupyter Password" Target="jupyterPassword" Default="changeme" Mode="" Description="Password used to access Jupyter Notebook's web server" Type="Variable" Display="always-hide" Required="true" Mask="true" />
+    <Networking>
+        <Mode>bridge</Mode>
+    </Networking>
+    <Banner />
+    <Icon />
+</Containers>
