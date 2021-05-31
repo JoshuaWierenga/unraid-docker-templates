@@ -15,7 +15,7 @@
     <Privileged>true</Privileged>
     <Environment />
     <Data />
-    <Config Name="Jupyter Data" Target="/opt/jupyter" Default="/mnt/user/appdata/jupyterlisp" Mode="rw" Description="This is where Jupyter Notebooks will be stored" Type="Path" Display="always-hide" Required="true" Mask="false" />
+    <Config Name="Jupyter Data" Target="/srv/jupyter" Default="/mnt/user/appdata/jupyterlisp" Mode="rw" Description="This is where Jupyter Notebooks will be stored" Type="Path" Display="always-hide" Required="true" Mask="false" />
     <Config Name="APT Packages" Target="packages" Default="libev-dev python3-pip python3-dev libczmq-dev" Mode="" Description="The List of aptitude packages you wish to install (Seperated by space)" Type="Variable" Display="advanced-hide" Required="true" Mask="false" />
     <Config Name="Jupyter Password" Target="jupyterPassword" Default="changeme" Mode="" Description="Password used to access Jupyter Notebook's web server" Type="Variable" Display="always-hide" Required="true" Mask="true" />
     <Networking>
