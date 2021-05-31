@@ -7,9 +7,9 @@
     <Project>https://github.com/yitzchak/common-lisp-jupyter/</Project>
     <Overview>Allows for automatic setup of Jupyter Notebooks with the common-lisp-jupyter kernel.</Overview>
     <Description>Allows for automatic setup of Jupyter Notebooks with the common-lisp-jupyter kernel.</Description>
-    <Registry>siwatinc/ubuntu-playground</Registry>
+    <Registry></Registry>
     <GitHub>https://github.com/JoshuaWierenga/unraid-docker-templates</GitHub>
-    <Repository>siwatinc/ubuntu-playground</Repository>
+    <Repository>JoshuaWierenga/docker-jupyter-common-lisp</Repository>
     <Support>https://github.com/JoshuaWierenga/unraid-docker-templates/issues</Support>
     <BindTime>true</BindTime>
     <Privileged>true</Privileged>
