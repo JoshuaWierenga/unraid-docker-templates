@@ -25,8 +25,9 @@
             <HostPort>8889</HostPort>
             <ContainerPort>8888</ContainerPort>
             <Protocol>tcp</Protocol>
-        </Port>
-    </Publish>
+            </Port>
+        </Publish>
+    <WebUI>http://[IP]:[PORT:8889]/</WebUI>
     </Networking>
     <Banner />
     <Icon />
